@@ -8,7 +8,7 @@
 
 ## 🌐 Live Demo
 
-You can visit the live version of the web application here: ([SAM APP](https://samappdocker.onrender.com)) - In maintainance
+You can visit the live version of the web application here: ([SAM APP](https://samappdocker.onrender.com)) - **In maintenance**
 
 ## Features
 
