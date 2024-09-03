@@ -1,3 +1,5 @@
+data/Data_Transformation/valid/images/LU-F_mod_jpg.rf.aede730e7c3fdcd40af8ca0117ca153c.jpg
+
 # SAM (Segment Anything Model)-Quality_Control
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Tchouanga12/SAM-Quality_Control/blob/main/LICENSE)
