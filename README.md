@@ -6,6 +6,14 @@
 
 **SAM Quality Control** is a Python-based project designed to automate and enhance quality control processes for manufacturing or service environments. The tool provides a robust framework for monitoring, analyzing, and reporting on quality metrics, ensuring that standards are consistently met.
 
+## Features
+
+- **Automated Data Collection**: Seamlessly collect and process quality-related data from various sources.
+- **Statistical Process Control (SPC)**: Implement SPC charts to monitor production quality in real-time.
+- **Defect Tracking**: Track and analyze defects to identify root causes and implement corrective actions.
+- **Customizable Reports**: Generate detailed reports tailored to specific quality control needs.
+- **Integration with Existing Systems**: Easily integrate with existing ERP and MES systems to streamline quality control workflows.
+  
 ## Use Case
 Solving the problem of void detection on electronic components using SAM (Segment Anything Model)
 
