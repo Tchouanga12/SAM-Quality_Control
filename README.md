@@ -7,12 +7,12 @@
 **SAM Quality Control** is a Python-based project designed to automate and enhance quality control processes for manufacturing or service environments. The tool provides a robust framework for monitoring, analyzing, and reporting on quality metrics, ensuring that standards are consistently met.
 
 ## Use Case
-Solving the problem of void detection on electronical components using SAM (Segment Anything Model)
+Solving the problem of void detection on electronic components using SAM (Segment Anything Model)
 
-Given an input image or a batch of input images, our app is able to:
-- **detect** *electonical components* and *voids*;
-- **segment** *electonical components* and *voids*;
-- print a *segmentation report* with several metrics such as the component area and the percentage of area occupied by void.
+Given an input image or a batch of input images, our app can:
+- Detect electronic components and voids (small, empty spaces or gaps that can form within materials used in the construction of electronic components)
+- Segment electronic components and voids
+- Print a segmentation report with several metrics such as the component area and the percentage of area occupied by void.
 
 # Project Architecture
 
