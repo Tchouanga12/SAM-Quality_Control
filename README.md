@@ -60,7 +60,7 @@ Here's an overview of the project structure and its components:
 - **all.py**: A script that executes all three operations (detection, segmentation, and report generation) sequentially.
 
 
-## Getting Started
+## Getting Started Locally
 
 1. **Setup**: Ensure you have all dependencies installed. You can install them using `pip`:
 
