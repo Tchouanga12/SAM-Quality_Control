@@ -14,26 +14,37 @@ Given an input image or a batch of input images, our app can:
 - Segment electronic components and voids
 - Print a segmentation report with several metrics such as the component area and the percentage of area occupied by void.
 
-Directory Structure
-Here's a brief overview of the project's directory structure:
+## Project Structure
 
-data/
-    └── Contains our data files (images).
+Here's an overview of the project structure and its components:
 
-Data_Transformation/
-    ├── train/           # Training data files.
-    ├── test/            # Testing data files.
-    ├── validation/      # Validation data files.
-    └── data.yaml        # Configuration file for data processing.
+### **data**
 
-PCB_xray_dataset/
-    └── Contains the raw data.
+- **Data_Transformation**: Contains the processed data required for model training and evaluation.
+  - `train/`: Training dataset.
+  - `test/`: Testing dataset.
+  - `validation/`: Validation dataset.
+  - `data.yaml`: Configuration file for the data.
 
-model/
-    ├── YOLO/            # YOLO detection models.
-    └── SAM/             # SAM segmentation models.
-    # Models are ready to be used.
+- **PCB_xray_dataset**: Contains raw image data for analysis.
 
+### **model**
+
+- **YOLO Detection Model**: Pre-trained YOLO models for object detection.
+- **SAM Segmentation Model**: Pre-trained SAM models for image segmentation.
+
+### **templates**
+
+- **base.html**: The base HTML template with placeholders for dynamic content.
+- **index.html**: The main entry point for the web application, extending `base.html`.
+
+### **scripts**
+
+- **app.py**: Defines the route functions for the web application.
+- **detection.py**: Contains the script for performing YOLO object detection.
+- **segmentation.py**: Contains the script for performing SAM image segmentation.
+- **report.py**: Generates reports based on the detection and segmentation results.
+- **all.py**: A script that executes all three operations (detection, segmentation, and report generation) sequentially.
 
 # Project Architecture
 
