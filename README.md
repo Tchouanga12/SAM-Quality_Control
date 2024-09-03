@@ -1,5 +1,5 @@
-<img src=".data/Data_Transformation/valid/images/LU-F_mod_jpg.rf.aede730e7c3fdcd40af8ca0117ca153c.jpg" alt="Sample Image" width="200"/>
-![Example Image](.data/Data_Transformation/valid/images/LU-F_mod_jpg.rf.aede730e7c3fdcd40af8ca0117ca153c.jpg)
+<img src="data/Data_Transformation/valid/images/LU-F_mod_jpg.rf.aede730e7c3fdcd40af8ca0117ca153c.jpg" alt="Sample Image" width="200"/>
+![Example Image](data/Data_Transformation/valid/images/LU-F_mod_jpg.rf.aede730e7c3fdcd40af8ca0117ca153c.jpg)
 
 # SAM (Segment Anything Model)-Quality_Control
 
