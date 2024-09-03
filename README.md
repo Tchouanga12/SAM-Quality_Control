@@ -14,6 +14,27 @@ Given an input image or a batch of input images, our app can:
 - Segment electronic components and voids
 - Print a segmentation report with several metrics such as the component area and the percentage of area occupied by void.
 
+Directory Structure
+Here's a brief overview of the project's directory structure:
+
+data/
+    └── Contains our data files (images).
+
+Data_Transformation/
+    ├── train/           # Training data files.
+    ├── test/            # Testing data files.
+    ├── validation/      # Validation data files.
+    └── data.yaml        # Configuration file for data processing.
+
+PCB_xray_dataset/
+    └── Contains the raw data.
+
+model/
+    ├── YOLO/            # YOLO detection models.
+    └── SAM/             # SAM segmentation models.
+    # Models are ready to be used.
+
+
 # Project Architecture
 
 - **data**: A directory contaning our data files (images).
