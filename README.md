@@ -45,3 +45,10 @@ Here's an overview of the project structure and its components:
 - **segmentation.py**: Contains the script for performing SAM image segmentation.
 - **report.py**: Generates reports based on the detection and segmentation results.
 - **all.py**: A script that executes all three operations (detection, segmentation, and report generation) sequentially.
+
+## Getting Started
+
+1. **Setup**: Ensure you have all dependencies installed. You can install them using `pip`:
+
+   ```bash
+   pip install -r requirements.txt
