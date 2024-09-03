@@ -6,6 +6,10 @@
 
 **SAM Quality Control** is a Python-based project designed to automate and enhance quality control processes for manufacturing or service environments. The tool provides a robust framework for monitoring, analyzing, and reporting on quality metrics, ensuring that standards are consistently met.
 
+## 🌐 Live Demo
+
+You can visit the live version of the website here: [tchouanga12.github.io](https://tchouanga12.github.io/)
+
 ## Features
 
 - **Automated Data Collection**: Seamlessly collect and process quality-related data from various sources.
