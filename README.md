@@ -1,4 +1,4 @@
-# SAM-Quality_Control
+# SAM (Segment Anything Model)-Quality_Control
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Tchouanga12/SAM-Quality_Control/blob/main/LICENSE)
 [![Python version](https://img.shields.io/badge/python-3.7%2B-brightgreen.svg)](https://www.python.org/downloads/)
@@ -9,18 +9,19 @@
 ## Features
 
 - **Automated Data Collection**: Seamlessly collect and process quality-related data from various sources.
-- **Statistical Process Control (SPC)**: Implement SPC charts to monitor production quality in real-time.
+- **Statistical Process Control (SPC)**: Implement SPC charts to monitor production quality in real time.
 - **Defect Tracking**: Track and analyze defects to identify root causes and implement corrective actions.
 - **Customizable Reports**: Generate detailed reports tailored to specific quality control needs.
 - **Integration with Existing Systems**: Easily integrate with existing ERP and MES systems to streamline quality control workflows.
   
-## Use Case
-Solving the problem of void detection on electronic components using SAM (Segment Anything Model)
+## Main Use Case
+Solving the problem of void detection on electronic components using SAM (Segment Anything Model). Given an input image or a batch of input images, our app can:
 
-Given an input image or a batch of input images, our app can:
-- Detect electronic components and voids (small, empty spaces or gaps that can form within materials used in the construction of electronic components)
-- Segment electronic components and voids
-- Print a segmentation report with several metrics such as the component area and the percentage of area occupied by void.
+- **Detect electronic components and voids** 
+- **Segment electronic components and voids**
+- **Print a segmentation report with several metrics** such as the component area and the percentage of area occupied by void.
+
+Nb: A void is a small, empty spaces or gaps that can form within materials used in the construction of electronic component.
 
 ## Project Structure
 
