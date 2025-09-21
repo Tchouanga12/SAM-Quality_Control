@@ -1,9 +1,9 @@
 from flask import Flask, request, render_template
 import numpy as np
-from detection import detection
-from segmentation import segmentation
-from report import report
-from all import all
+from app.detection import detection
+from app.segmentation import segmentation
+from app.report import report
+from app.all import all
 import cv2
 import base64
 

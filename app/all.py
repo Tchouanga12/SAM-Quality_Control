@@ -1,4 +1,4 @@
-from segmentation import segmentation
+from app.segmentation import segmentation
 
 def all(images):
   (components, voids, results, detections), segmented_images, report = segmentation(images)

@@ -1,4 +1,4 @@
-from detection import detection
+from app.detection import detection
 import numpy as np
 from segment_anything import sam_model_registry
 from segment_anything.utils.transforms import ResizeLongestSide

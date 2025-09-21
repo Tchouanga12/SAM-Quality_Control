@@ -1,4 +1,4 @@
-from segmentation import segmentation
+from app.segmentation import segmentation
 
 def report(images):
   _, _, summary = segmentation(images)
